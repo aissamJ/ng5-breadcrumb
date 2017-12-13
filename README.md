@@ -34,10 +34,10 @@ Import the this module into your module using forRoot()
 
 Alternatively you can import the this module into your module and manually provide its service
 
-	import {ng5BreadcrumbModule, BreadcrumbService} from 'ng5-breadcrumb';
+	import {Ng5BreadcrumbModule, BreadcrumbService} from 'ng5-breadcrumb';
 
 	@NgModule({
-        imports: [ng5BreadcrumbModule],
+        imports: [Ng5BreadcrumbModule],
         providers: [BreadcrumbService]
     })
     export class AppModule {
